@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"stepdefinitions", "hooks"},
-        tags = "@negetive",
+        tags = "@positive",
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber.html",

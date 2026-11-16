@@ -1,6 +1,6 @@
 Feature: User Login Functionality
 
-@tag11
+@positive
   Scenario: Successful login with valid credentials
     Given user is on the login page
     When user enters username "Admin" and password "admin123"
