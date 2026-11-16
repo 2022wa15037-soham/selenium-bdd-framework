@@ -1,0 +1,14 @@
+# Maven build output
+target/
+
+# Local Extent Reports
+test-output/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
